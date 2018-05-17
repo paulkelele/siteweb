@@ -1,0 +1,48 @@
+body{
+			background-image: url('image/papillon.jpg');
+			background-image: center;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		.info{
+			border-left: 6px solid blue;
+			border-radius: 5px;
+    		background-color: lightgrey;
+    		text-align:left; 
+    		width: 40%;
+    		padding-left: 10px;
+    		padding-bottom: 10px;
+    		font-size: larger;
+    		font-family: "arial", sans-serif;
+
+		}
+		#titre{
+			font-family: "arial", sans-serif;
+			background-color: lightblue;
+			border-radius: 5px;
+			text-align: center;
+			border-style: ridge;
+			width: 35%;
+			position: relative;
+			left: 450px;
+			top:10px;
+		}
+
+		#competences{
+			position: relative;
+			left: 200px;
+			width: 50%;
+			background-color: #ffccff;
+		}
+		.experience{
+			width: 50%;
+		}
+		#effetRouge{
+			text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+		}
+		#effetVert{
+			text-shadow: 1px 1px 2px white, 0 0 25px green, 0 0 5px darkgreen;
+		}
+		#effetOrange{
+			text-shadow: 1px 1px 2px white, 0 0 25px red, 0 0 5px #b34700;
+		}
