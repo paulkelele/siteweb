@@ -4,7 +4,12 @@ body{
 			background-attachment: fixed;
 			background-size: cover;
 		}
+
+		#nom{
+			width: 35%;
+		}
 		.info{
+
 			border-left: 6px solid blue;
 			border-radius: 5px;
     		background-color: lightgrey;
@@ -29,10 +34,11 @@ body{
 		}
 
 		#competences{
-			position: relative;
 			left: 200px;
 			width: 50%;
 			background-color: #ffccff;
+			animation-name: example;
+    		animation-duration: 4s;
 		}
 		.experience{
 			width: 50%;
@@ -42,7 +48,22 @@ body{
 		}
 		#effetVert{
 			text-shadow: 1px 1px 2px white, 0 0 25px green, 0 0 5px darkgreen;
+						 
 		}
 		#effetOrange{
 			text-shadow: 1px 1px 2px white, 0 0 25px red, 0 0 5px #b34700;
 		}
+		.position{
+			position: relative;
+			top: 40px;
+			animation-name: example;
+    		animation-duration: 4s;
+    		width: 35%;
+		}
+		@keyframes example {
+      0%  {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
