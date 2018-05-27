@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<link rel="stylesheet" type="text/css" href="formulaire.css">
+</head>
+<body>
+	<h1 id="titre">Ceci est un titre</h1>
+
+
+<form id="formul" method="POST" enctype="text/plain">
+	Destinataire:<input type="text" id="formulaire" ></br></br>
+	Sujet : <input type="text" id="sujet" ></br></br>
+	Message :</br>
+	 <textarea id="message" maxlength="4000" cols="40" rows="10" name="Votre Message: "></textarea></br></br> 
+
+	<input type="submit"  onclick="envoie()" value="cliquez">
+	<input type="reset" value="Reset">
+</form>
+
+
+<script src="formulaire.js" type="text/javascript"></script>
+</body>
+<footer></footer>
+</html>
